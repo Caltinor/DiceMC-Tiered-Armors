@@ -1,0 +1,28 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":
+	[
+		"   ",
+		"did",
+		"dcd"
+	],
+	"key":
+	{
+		"d":
+		{
+			"item":"minecraft:diamond"
+		},
+		"i":
+		{
+			"item":"minecraft:iron_ingot"
+		},
+		"c":
+		{
+			"item":"minecraft:chainmail_helmet"
+		}
+	},
+	"result":
+	{
+		"item":"minecraft:diamond_helmet"
+	}
+}

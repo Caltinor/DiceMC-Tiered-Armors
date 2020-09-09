@@ -1,0 +1,29 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":
+	[
+		"ddd",
+		"dld",
+		"dcd"
+	],
+	"key":
+	{
+		"d":
+		{
+			"item":"minecraft:diamond"
+		},
+		"c":
+		{
+			"item":"minecraft:chainmail_leggings"
+		}
+		,
+		"l":
+		{
+			"item":"minecraft:leather_leggings"
+		}
+	},
+	"result":
+	{
+		"item":"minecraft:diamond_leggings"
+	}
+}

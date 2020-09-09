@@ -1,0 +1,24 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":
+	[
+		"iii",
+		"ili",
+		"i i"
+	],
+	"key":
+	{
+		"i":
+		{
+			"item":"minecraft:gold_ingot"
+		},
+		"l":
+		{
+			"item":"minecraft:leather_leggings"
+		}
+	},
+	"result":
+	{
+		"item":"minecraft:golden_leggings"
+	}
+}

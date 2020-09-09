@@ -1,0 +1,21 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":
+	[
+		"i i",
+		"iii",
+		"iii"
+	],
+	"key":
+	{
+		"i":
+		{
+			"item":"minecraft:diamond"
+		}
+	},
+	"result":
+	{
+		"item":"minecraft:diamond",
+		"count": 8
+	}
+}

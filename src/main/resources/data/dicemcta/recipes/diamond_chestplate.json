@@ -1,0 +1,29 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":
+	[
+		"dld",
+		"dcd",
+		"ddd"
+	],
+	"key":
+	{
+		"d":
+		{
+			"item":"minecraft:diamond"
+		},
+		"c":
+		{
+			"item":"minecraft:chainmail_chestplate"
+		}
+		,
+		"l":
+		{
+			"item":"minecraft:leather_chestplate"
+		}
+	},
+	"result":
+	{
+		"item":"minecraft:diamond_chestplate"
+	}
+}

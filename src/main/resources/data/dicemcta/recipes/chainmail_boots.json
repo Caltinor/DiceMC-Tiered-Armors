@@ -1,0 +1,28 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":
+	[
+		"   ",
+		"n n",
+		"ili"
+	],
+	"key":
+	{
+		"n":
+		{
+			"item":"minecraft:iron_nugget"
+		},
+		"i":
+		{
+			"item":"minecraft:iron_ingot"
+		},
+		"l":
+		{
+			"item":"minecraft:leather_boots"
+		}
+	},
+	"result":
+	{
+		"item":"minecraft:chainmail_boots"
+	}
+}
