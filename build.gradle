@@ -19,7 +19,7 @@ repositories {
     }
 }
 
-version = '1.16.2-1.0'
+version = '1.16.2-1.1'
 group = 'com.dicemc' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'DiceMC-TieredArmor'
 
