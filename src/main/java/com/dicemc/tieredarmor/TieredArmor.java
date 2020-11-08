@@ -20,10 +20,10 @@ public class TieredArmor {
 	
 	public TieredArmor() {
 		MinecraftForge.EVENT_BUS.register(this);
-		Regisration.init();
+		Registration.init();
 	}
 	
-	public static class Regisration {
+	public static class Registration {
 		public static final GildedDiamondArmorMaterial GILDED_DIAMOND_ARMOR_MATERIAL = new GildedDiamondArmorMaterial();
 		public static final GildedNetheriteArmorMaterial GILDED_NETHERITE_ARMOR_MATERIAL= new GildedNetheriteArmorMaterial();
 		
