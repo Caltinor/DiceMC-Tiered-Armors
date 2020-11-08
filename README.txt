@@ -1,53 +1,25 @@
--------------------------------------------
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+# DiceMC Tiered Armors
 
-Note also that the patches are built against "unrenamed" MCP source code (aka
-srgnames) - this means that you will not be able to read them directly against
-normal code.
+Adds vanilla-esque armor progression that aims to stop the jumpt from no armor to iron with some logical intermediaries
 
-Source pack installation information:
+## Upcoming Features
+- wood armors (3 variants) for early game protection
 
-Standalone source installation
-==============================
+- Dependnecy on Sewing Kit by Gigaherz for certain cloth and leather crafting
+- cloth armor components (no armor value, dyeable)
+- cloth as a base for leather
+- cloth and leather as bases for higher tiered armors
 
-See the Forge Documentation online for more detailed instructions:
-http://mcforge.readthedocs.io/en/latest/gettingstarted/
+### design philosophy
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+To give you an idea what my head space is for this mod and why I make certain choices and what might come to be.
+As far as vanilla minecraft is concerned, armor is a "put it on and be done" kind of feature.  Sure you may end 
+up breaking a piece here or there, but once you get to diamond, or now netherrite, it's pretty much ignored. This
+means that all the other armors exist only to be thrown away or never used at all.  Mojang is somewhat bridging
+that gap with gold items ignoring piglins (but let's be real you just use boots and full netherrite elsewhere)
+and lether boots in 1.17 for not falling in snow (same as the gold boots).  So the future of Tiered armors will
+attempt to make armors make more sense.  Certain armors may prevent the player from sprinting in the future due
+to its weight.  I plan the wood armors to burn easily making them unsuitable for the nether.  depending on how
+in depth I end up going into rendering, I may also look into armor layers so that you might be able to mix and
+match layers especially if you have them dyed.
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: "gradlew genEclipseRuns" (./gradlew genEclipseRuns if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run "gradlew eclipse" to generate the project.
-(Current Issue)
-4. Open Project > Run/Debug Settings > Edit runClient and runServer > Environment
-5. Edit MOD_CLASSES to show [modid]%%[Path]; 2 times rather then the generated 4.
-
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: "gradlew genIntellijRuns" (./gradlew genIntellijRuns if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can run "gradlew --refresh-dependencies" to refresh the local cache. "gradlew clean" to reset everything {this does not affect your code} and then start the processs again.
-
-Should it still not work, 
-Refer to #ForgeGradle on EsperNet for more information about the gradle environment.
-or the Forge Project Discord discord.gg/UvedJ9m
-
-Forge source installation
-=========================
-MinecraftForge ships with this code and installs it as part of the forge
-installation process, no further action is required on your part.
-
-LexManos' Install Video
-=======================
-https://www.youtube.com/watch?v=8VEdtQLuLO0&feature=youtu.be
-
-For more details update more often refer to the Forge Forums:
-http://www.minecraftforge.net/forum/index.php/topic,14048.0.html
