@@ -2,14 +2,14 @@ modLoader="javafml" #mandatory
 loaderVersion="[32,)" #mandatory
 issueTrackerURL="https://github.com/caltinor" #optional
 displayURL="https://github.com/caltinor" #optional
-logoFile="" #optional
+#logoFile="" #optional
 credits="Thanks to the MMD community." #optional
 authors="Caltinor" #optional
 license="ARR License"
 
 [[mods]] #mandatory
 modId="dicemcta" #mandatory
-version="1.16.4-1.0" #mandatory
+version="1.16.5-1.0" #mandatory
 displayName="DiceMC Tiered Armor" #mandatory
 #updateJSONURL=""
 description='''
