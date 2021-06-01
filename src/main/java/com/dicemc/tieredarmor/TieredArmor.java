@@ -3,8 +3,10 @@ package com.dicemc.tieredarmor;
 import com.dicemc.tieredarmor.armor.GildedArmor;
 import com.dicemc.tieredarmor.armor.GildedDiamondArmorMaterial;
 import com.dicemc.tieredarmor.armor.GildedNetheriteArmorMaterial;
+import com.dicemc.tieredarmor.armor.WoodArmorMaterial;
 
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +28,7 @@ public class TieredArmor {
 	public static class Registration {
 		public static final GildedDiamondArmorMaterial GILDED_DIAMOND_ARMOR_MATERIAL = new GildedDiamondArmorMaterial();
 		public static final GildedNetheriteArmorMaterial GILDED_NETHERITE_ARMOR_MATERIAL= new GildedNetheriteArmorMaterial();
+		public static final WoodArmorMaterial WOOD_ARMOR_MATERIAL = new WoodArmorMaterial();
 		
 		public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TieredArmor.MOD_ID);
 		
@@ -42,5 +45,10 @@ public class TieredArmor {
 	    public static final RegistryObject<Item> GILDED_NETHERITE_CHESTPLATE = ITEMS.register("gilded_netherite_chestplate", () -> new GildedArmor(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
 	    public static final RegistryObject<Item> GILDED_NETHERITE_LEGGINGS = ITEMS.register("gilded_netherite_leggings", () -> new GildedArmor(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
 	    public static final RegistryObject<Item> GILDED_NETHERITE_BOOTS = ITEMS.register("gilded_netherite_boots", () -> new GildedArmor(GILDED_NETHERITE_ARMOR_MATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
+	    
+	    public static final RegistryObject<Item> WOOD_HELMET = ITEMS.register("wood_helmet", () -> new ArmorItem(WOOD_ARMOR_MATERIAL, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+	    public static final RegistryObject<Item> WOOD_CHESTPLATE = ITEMS.register("wood_chestplate", () -> new ArmorItem(WOOD_ARMOR_MATERIAL, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+	    public static final RegistryObject<Item> WOOD_LEGGINGS = ITEMS.register("wood_leggings", () -> new ArmorItem(WOOD_ARMOR_MATERIAL, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+	    public static final RegistryObject<Item> WOOD_BOOTS = ITEMS.register("wood_boots", () -> new ArmorItem(WOOD_ARMOR_MATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
 	}
 }

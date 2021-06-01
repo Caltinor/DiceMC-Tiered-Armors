@@ -1,0 +1,28 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":
+	[
+		"   ",
+		"rrr",
+		"psp"
+	],
+	"key":
+	{
+		"r":
+		{
+			"tag":"forge:rods/wooden"
+		},
+		"p":
+		{
+			"tag":"minecraft:planks"
+		},
+		"s":
+		{
+			"tag":"forge:string"
+		}
+	},
+	"result":
+	{
+		"item":"dicemcta:wood_helmet"
+	}
+}

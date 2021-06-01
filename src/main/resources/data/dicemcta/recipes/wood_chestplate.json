@@ -1,0 +1,24 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":
+	[
+		"p p",
+		"psp",
+		"psp"
+	],
+	"key":
+	{
+		"p":
+		{
+			"tag":"minecraft:planks"
+		},
+		"s":
+		{
+			"tag":"forge:string"
+		}
+	},
+	"result":
+	{
+		"item":"dicemcta:wood_chestplate"
+	}
+}
