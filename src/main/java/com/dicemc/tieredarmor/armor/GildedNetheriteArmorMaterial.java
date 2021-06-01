@@ -8,7 +8,8 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
 
 public class GildedNetheriteArmorMaterial implements IArmorMaterial {
-	private static final int[] MAX_DAMAGE_ARRAY = new int[]{3, 6, 8, 3};
+	private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};
+	private static final int[] DAMAGE_REDUCTION = new int[]{3, 6, 8, 3};
 
 	@Override
 	public int getDurability(EquipmentSlotType slotIn) {
@@ -17,7 +18,7 @@ public class GildedNetheriteArmorMaterial implements IArmorMaterial {
 
 	@Override
 	public int getDamageReductionAmount(EquipmentSlotType slotIn) {
-		return MAX_DAMAGE_ARRAY[slotIn.getIndex()];
+		return DAMAGE_REDUCTION[slotIn.getIndex()];
 	}
 
 	@Override
