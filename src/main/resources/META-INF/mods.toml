@@ -9,7 +9,7 @@ license="ARR License"
 
 [[mods]] #mandatory
 modId="dicemcta" #mandatory
-version="1.16.5-1.1" #mandatory
+version="${file.jarVersion}" #mandatory
 displayName="DiceMC Tiered Armor" #mandatory
 #updateJSONURL=""
 description='''
