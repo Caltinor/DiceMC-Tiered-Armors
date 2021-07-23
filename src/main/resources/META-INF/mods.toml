@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[32,)" #mandatory
+loaderVersion="[37,)" #mandatory
 issueTrackerURL="https://github.com/caltinor" #optional
 displayURL="https://github.com/caltinor" #optional
 #logoFile="" #optional
@@ -19,12 +19,12 @@ Logical and progressive armor.
 [[dependencies.enderthing]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[32.0.1,)" #mandatory
+    versionRange="[37.0.1,)" #mandatory
     ordering="NONE"
     side="BOTH"
 [[dependencies.enderthing]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.1,1.17)"
+    versionRange="[1.17.1,1.18)"
     ordering="NONE"
     side="BOTH"
