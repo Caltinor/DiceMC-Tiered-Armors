@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[38,)" #mandatory
+loaderVersion="[40,)" #mandatory
 issueTrackerURL="https://github.com/caltinor" #optional
 displayURL="https://github.com/caltinor" #optional
 #logoFile="" #optional
@@ -16,15 +16,15 @@ description='''
 Logical and progressive armor.
 '''
 
-[[dependencies.enderthing]] #optional
+[[dependencies.dicemcta]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[38.0.1,)" #mandatory
+    versionRange="[40.0.18,)" #mandatory
     ordering="NONE"
     side="BOTH"
-[[dependencies.enderthing]]
+[[dependencies.dicemcta]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18,1.19)"
+    versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
